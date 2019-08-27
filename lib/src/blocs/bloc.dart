@@ -40,7 +40,7 @@ class Bloc extends Validators {
 
     if (validEmail != '' && validPassword != '') {
       _authenticated.sink.add(true);
-       _tokenController.sink.add('questa-e-solo-una-prova');
+       _tokenController.sink.add('valid email and password');
     }
 
 
